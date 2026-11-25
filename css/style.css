@@ -159,7 +159,7 @@ body[data-mode="cv"] .mode__btn[aria-pressed="true"] { color: var(--paper); }
 .hero__lede { font-size: var(--step-2); line-height: 1.3; max-width: 30ch; font-weight: 450; margin-bottom: 16px; text-wrap: balance; }
 .hero__role { color: var(--mist-dim); max-width: 54ch; margin-bottom: 26px; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 12px; }
-.hero__hint { position: absolute; right: var(--gutter); bottom: 34px; display: flex; align-items: center; gap: 12px; font-size: var(--step--1); color: var(--mist-dim); opacity: calc(1 - var(--p, 0) * 4); }
+.hero__hint { position: absolute; left: var(--gutter); bottom: 34px; display: flex; align-items: center; gap: 12px; font-size: var(--step--1); color: var(--mist-dim); opacity: calc(1 - var(--p, 0) * 4); }
 .hero__hint-line { width: 48px; height: 1px; background: var(--mist-dim); transform-origin: left; animation: hint 2.4s var(--ease) infinite; }
 @keyframes hint { 0% { transform: scaleX(0); } 50% { transform: scaleX(1); transform-origin: left; } 51% { transform-origin: right; } 100% { transform: scaleX(0); transform-origin: right; } }
 .legend { position: absolute; right: var(--gutter); top: clamp(96px, 16vh, 150px); display: grid; gap: 10px; font-size: var(--step--1); color: var(--mist-dim); opacity: calc((var(--p, 0) - 0.3) * 3); }
