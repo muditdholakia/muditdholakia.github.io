@@ -171,7 +171,7 @@ body[data-mode="cv"] .mode__btn[aria-pressed="true"] { color: var(--paper); }
 .callout.is-on { opacity: calc(1 - var(--p, 0) * 6); }
 .callout__dot { position: absolute; left: -4px; top: -4px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 4px rgba(216, 180, 90, 0.22); }
 .callout__line { position: absolute; top: 0; height: 1px; width: 64px; background: linear-gradient(90deg, var(--gold), rgba(216, 180, 90, 0.2)); }
-.callout p { position: absolute; top: -20px; width: max-content; max-width: 220px; padding: 8px 12px; border: 1px solid var(--line-strong); border-radius: 8px; background: rgba(16, 26, 43, 0.72); backdrop-filter: blur(6px); line-height: 1.25; }
+.callout p { position: absolute; top: -20px; width: max-content; max-width: min(220px, calc(22vw - 8px)); padding: 8px 12px; border: 1px solid var(--line-strong); border-radius: 8px; background: rgba(16, 26, 43, 0.72); backdrop-filter: blur(6px); line-height: 1.25; }
 .callout p strong { display: block; font-size: 0.86rem; }
 .callout p span { font-size: 0.78rem; color: var(--mist-dim); }
 .callout--right .callout__line { left: 4px; }
